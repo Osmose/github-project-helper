@@ -10,7 +10,7 @@
       "matches": [
         "*://github.com/*/projects/*"
       ],
-      "js": ["node_modules/moment/moment.js", "index.js"]
+      "js": ["moment.js", "index.js"]
     }
   ]
 }

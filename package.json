@@ -5,6 +5,9 @@
   "private": "true",
   "author": "Michael Kelly",
   "license": "MIT",
+  "scripts": {
+    "build": "cp node_modules/moment/moment.js ./ && web-ext build"
+  },
   "dependencies": {
     "moment": "^2.15.2"
   }

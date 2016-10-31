@@ -9,3 +9,5 @@ _build
 /__version__/
 /tmp
 /node_modules
+/moment.js
+/web-ext-artifacts

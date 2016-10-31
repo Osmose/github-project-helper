@@ -1,5 +1,4 @@
 # github-project-helper
-
 A small web extension that adds some nice things for GitHub Projects.
 
 ## Improvements
@@ -9,5 +8,4 @@ A small web extension that adds some nice things for GitHub Projects.
   - Issues opened in the past week
 
 ## License
-
 Licensed under the MIT License. See `LICENSE` for details.
