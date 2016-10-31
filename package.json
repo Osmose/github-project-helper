@@ -1,0 +1,11 @@
+{
+  "name": "github-project-helper",
+  "version": "0.1.0",
+  "description": "",
+  "private": "true",
+  "author": "Michael Kelly",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.15.2"
+  }
+}
