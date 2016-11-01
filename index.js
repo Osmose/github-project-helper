@@ -16,11 +16,18 @@ filterPresets.innerHTML = `
   <button class="preset-past-week btn btn-small">Past Week</button>
 `;
 filterPresets.addEventListener('click', e => {
+  // Avoid a weird event retargeting issue where the search submission triggers
+  // a click event.
+  if (e.explicitOriginalTarget.parentNode !== filterPresets) {
+    return;
+  }
+
   const preset = Array.from(e.target.classList).find(
     className => className.startsWith('preset-')
   );
 
   if (preset === 'preset-open') {
+    console.log('stateopen');
     searchField.value = 'state:open';
   } else if (preset === 'preset-closed') {
     searchField.value = 'state:closed';
