@@ -2,6 +2,11 @@
   "manifest_version": 2,
   "name": "github-project-helper",
   "version": "0.1.0",
+  "applications": {
+    "gecko": {
+      "id": "github-project-helper@mkelly.me"
+    }
+  },
 
   "description": "Adds useful shortcuts to the GitHub projects page.",
 
